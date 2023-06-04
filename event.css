@@ -1,0 +1,125 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: transparent;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+  height: 100px;
+  background-color: #f5f5f5;
+  border: transparent;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.banner {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('home_wedding2.jpg');
+  background-size: auto;
+  background-position: center;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.products {
+  padding: 40px;
+}
+
+.products h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  display: inline-block;
+  width: 200px;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-card img {
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+footer p {
+  font-size: 14px;
+}
+ul li a:hover{
+  background-color:aqua;
+  color:black;
+}
+ul li :a{
+  text-decoration: none;
+  padding:5px 20px;
+  border:1px solid #fff;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+
+}
+.logo img{
+  float:left;
+  width:150px;
+  height:auto;
+
+}
+.li ul a{
+  text-decoration: none;
+  border:5px;
+  border-color:#333
+}
